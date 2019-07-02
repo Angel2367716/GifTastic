@@ -50,7 +50,7 @@ $(document).ready(function () {
     })
 
     $(document).on('click','.searchImage', function(){
-        const state = $(this).data('state');
+        const state = $(this).attr('data-state');
         if (state == 'still') {
             $(this).attr('src', $(this).data('animated'));
             $(this).attr('data-state', 'animated');
