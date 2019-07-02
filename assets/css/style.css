@@ -64,3 +64,11 @@ button.active {
     background-color: rgba(100,100,100, 0.5);
     color: inherit;
 }
+
+h1{
+    font-size: 45px;
+    text-shadow: 0px 3px 0px #24c40f,
+    0px 14px 10px rgb(19, 236, 55),
+    0px 24px 2px rgb(74, 255, 134),
+    0px 34px 30px rgb(99, 206, 37);
+}
