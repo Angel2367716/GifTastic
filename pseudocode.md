@@ -46,11 +46,11 @@ JS file
 
 
 Adding new buttons with text search box
-*use a click funtion and select the add search id
+*use a click funtion and select the add search id✅
 	-varialbe newSearch, input,.eq(0), val
-	-add to search array using the push function
-	-populate the button
-	-return it false so we can prevent the page from reloading
+	-add to search array using the push function✅
+	-populate the button✅
+	-return it false so we can prevent the page from reloading✅
 
 
 Animate images (place this on top of the addSearch, click function

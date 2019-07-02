@@ -47,12 +47,20 @@ $(document).ready(function () {
                     // console.log(searchDiv)
                 }
             });
-
-
     })
 
+    $(document).on('click','.searchImage', function(){
+        const state = $(this).data('state');
+        if (state == 'still') {
+            $(this).attr('src', $(this).data('animated'));
+            $(this).attr('data-state', 'animated');
+        } else {
+            $(this).attr('src', $(this).data('still'));
+            $(this).attr('data-state', 'still');
+        }
+    })
 
-    $('#addSearch').on('click', function(){
+    $('#addSearch').on('click', function () {
         let newSearch = $("input").eq(0).val();
         searchArray.push(newSearch);
         populateButtons(searchArray, 'searchButton', '#buttonsArea');
