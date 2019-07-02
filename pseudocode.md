@@ -1,47 +1,48 @@
-HTML page
--create area for all buttons w/ buttons area id
--create a form that allows us to create new buttons 
+HTML page✅
+-create area for all buttons w/ buttons area id✅
+-create a form that allows us to create new buttons ✅
 -form tag with an id tag inside
--also use label for search input, then put in some text for user
--input box with type of text, add a search input id
--add another input with the submit type and a value of submit
+-also use label for search input, then put in some text for user✅
+-input box with type of text, add a search input id✅
+-add another input with the submit type and a value of submit✅
 -create a div with a searches id
--link js file 
+-link js file ✅
 
 JS file
--create buttons using jquery 
--jquery function {whatever we put inside the brakets will run as soon as you open a page}
+-create buttons using jquery ✅
+-jquery function {whatever we put inside the brakets will run as soon as you open a page}✅
 
-- create a searchArray varialbe [dog, cat, etc]
+- create a searchArray varialbe [dog, cat, etc]✅
 
 -create a funciton to populateButtons 
-*searchArray
-*classToAdd
-*areaToAddTo
-*empty();
+*searchArray✅
+*classToAdd✅
+*areaToAddTo✅
+*empty();✅
 *for loop 8:38pm
-	-variable
-	-addclass
-	-text
-	-append
+	-variable✅
+	-addclass✅
+	-attribute✅
+    -text✅
+	-append✅
 
 -create a document search function
-*varibale type, this, .data
-*varibale query URL
-	-api page
-	-type
-	-api key
-	-ajax
-		-url:method:
-	-console it
-	-for loop
-		-response.data.length
-			variable searchDiv
-			-variable ranting
-			-raviable p = text, 'ranting', ranting
-			-var animated  
-			-variable still
-			-variable image,attribute, source still, data-still,data-animated,addclass, searchDiv.append (on paragraph), searcDiv append searchdiv
+*varibale type, this, .data✅
+*varibale query URL✅
+	-api page✅
+	-type✅
+	-api key✅
+	-ajax✅
+		-url:method:✅
+	-console it✅
+	-for loop✅
+		-response.data.length✅
+			-variable searchDiv✅
+			-variable rating✅
+			-variable p = text, 'rating', rating✅
+			-var animated  ✅
+			-variable still✅
+			-variable image,attribute, source still, data-still,data-animated,addclass, searchDiv.append (on paragraph), searcDiv append searchdiv✅
 
 
 Adding new buttons with text search box
