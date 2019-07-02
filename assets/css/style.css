@@ -67,8 +67,16 @@ button.active {
 
 h1{
     font-size: 45px;
-    text-shadow: 0px 3px 0px #24c40f,
+    text-shadow: 1px 1.3px 1.9px #24c40f,
     0px 14px 10px rgb(19, 236, 55),
     0px 24px 2px rgb(74, 255, 134),
     0px 34px 30px rgb(99, 206, 37);
+}
+
+#search-input-text {
+    font-size: 25px;
+    text-shadow: 1px 1.3px 1.9px #24c40f,
+    0px 7px 5px rgb(19, 236, 55),
+    0px 12px 1px rgb(74, 255, 134),
+    0px 16px 15px rgb(99, 206, 37);
 }
