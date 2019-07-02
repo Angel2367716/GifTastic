@@ -53,13 +53,11 @@ Adding new buttons with text search box
 	-return it false so we can prevent the page from reloading✅
 
 
-Animate images (place this on top of the addSearch, click function
-*document on click funtion and use the search image class
-	*use a state variable, remember that all images have a state of still 
-	*if statment where you are telling the code that if the image is still then you are adding an animated attribute
-	*else statment would be the oposite
-	*22:36
-	*now after you press on an image the image should animate but if you press it again the image will not stop instead it will go back to the beginning of the animation. You will need to fix this by giving the state varialbe an attribute of still 
+Animate images (place this on top of the addSearch, click function✅
+*document on click funtion and use the search image class✅
+	*use a state variable, remember that all images have a state of still ✅
+	*if statment where you are telling the ✅code that if the image is still then you are adding an animated attribute
+	*else statment would be the oposite✅
+	*now after you press on an image the image should animate but if you press it again the image will not stop instead it will go back to the beginning of the animation. You will need to fix this by giving the state varialbe an attribute of still ✅
 
 
-14:51

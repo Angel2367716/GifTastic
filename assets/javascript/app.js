@@ -20,10 +20,11 @@ $(document).ready(function () {
     }
 
     $(document).on('click', '.searchButton', function () {
+        
         $('#searches').empty();
         const type = $(this).data('type');
         console.log(type);
-        const queryURL = "https://api.giphy.com/v1/gifs/search?q=" + type + "&api_key=0tPJSAkmge33IsGzgEwrOofvW7yPGcVv&limit=5";
+        const queryURL = "https://api.giphy.com/v1/gifs/search?q=" + type + "&api_key=0tPJSAkmge33IsGzgEwrOofvW7yPGcVv&limit=10";
 
         $.ajax({ url: queryURL, method: "GET" })
             .done(function (response) {
@@ -50,6 +51,7 @@ $(document).ready(function () {
     })
 
     $(document).on('click','.searchImage', function(){
+        
         const state = $(this).attr('data-state');
         if (state == 'still') {
             $(this).attr('src', $(this).data('animated'));

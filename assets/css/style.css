@@ -1,10 +1,23 @@
+
 body {
-    font: 18px arial, sans-serif;
-    background: #eee;
+    background: url(../images/cat.jpg)  no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover
+    
+  }
+
+.container {
+    background-size:cover;
+    background-color: rgba(226, 136, 136, 0.13);
+      
+color: inherit;
+    
 }
 
 #searches {
-    width: 70%;
+    width: 100%;
 }
 
 .search-item {
@@ -12,8 +25,7 @@ body {
     padding: 10px;
 }
 form {
-    width: 30%;
-    float: right;
+    width: 100%;
     padding: 20px;
 }
 label {
@@ -26,6 +38,8 @@ input[type="text"] {
     margin-bottom: 10px;
     height: 30px;
     font-size: 18px;
+    background-size:cover;
+    background-color:rgba(100,100,100, 0.5);
 }
 button, input[type="submit"] {
     background: #067e20;
@@ -45,4 +59,8 @@ button.active {
     background: #334E4D;
 }
 
-
+.jumbotron, .card {
+    background-size:cover;
+    background-color: rgba(100,100,100, 0.5);
+    color: inherit;
+}
